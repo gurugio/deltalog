@@ -1,0 +1,10 @@
+{"logtime":"2023-12-03 11:49:40", "hostname":"gioh-laptop", "message":"dbus-daemon[1937]: [session uid=1000 pid=1937] Successfully activated service 'org.freedesktop.FileManager1'"}
+{"logtime":"2023-12-03 11:49:40", "hostname":"gioh-laptop", "message":"gnome-shell[2164]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b)."}
+{"logtime":"2023-12-03 11:49:40", "hostname":"gioh-laptop", "message":"gnome-shell[2164]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a)."}
+{"logtime":"2023-12-03 11:49:40", "hostname":"gioh-laptop", "message":"gnome-shell[2164]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e)."}
+{"logtime":"2023-12-03 11:49:40", "hostname":"gioh-laptop", "message":"dbus-daemon[1937]: [session uid=1000 pid=1937] Successfully activated service 'org.gnome.ArchiveManager1'"}
+{"logtime":"2023-12-04 11:49:40", "hostname":"gioh-laptop", "message":"gnome-shell[2164]: DING: Detected async api for thumbnails"}
+{"logtime":"2023-12-04 11:49:40", "hostname":"gioh-laptop", "message":"gnome-shell[2164]: DING: GNOME nautilus 42.6"}
+{"logtime":"2023-12-05 11:49:50", "hostname":"gioh-laptop", "message":"nautilus[157120]: Could not delete '.meta.isrunning': No such file or directory"}
+{"logtime":"2023-12-05 11:51:03", "hostname":"gioh-laptop", "message":"google-chrome.desktop[3242]: Fontconfig error: Cannot load default config file: No such file: (null)"}
+{"logtime":"2023-12-05 12:05:01", "hostname":"gioh-laptop", "message":"CRON[160237]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)"}
