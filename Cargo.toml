@@ -6,4 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+arrow = { version = "49.0.0", features = ["test_utils", "prettyprint"] }
+arrow-array = "49.0.0"
+datafusion = "33.0.0"
+futures = "0.3.29"
+parquet = { version = "49.0.0", features = ["arrow", "async"] }
+tokio = "1.35.0"
 tonic = "0.10.2"
