@@ -24,6 +24,7 @@ async fn main() -> Result<()> {
     // Register a listing table - this will use all files in the directory as data sources
     // for the query
     // TODO: create testdata directory and put more parquet files
+    // TODO: how to spcify some of parquet files? It's not efficient to read all files. It's better to read only necessary files. see deltaquery
     ctx.register_listing_table(
         "logtable", // Is it table name? Or any name for just context?
         &format!("file:///home/gurugio/study/deltalog/"),

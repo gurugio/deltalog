@@ -5,9 +5,17 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[[bin]]
+name = "flight-client"
+path = "src/flight_client.rs"
+
+[[bin]]
+name = "flight-server"
+path = "src/flight_server.rs"
+
 [dependencies]
-arrow = { version = "49.0.0", features = ["test_utils", "prettyprint"] }
-arrow-array = "49.0.0"
+arrow = { version = "48.0.0", features = ["test_utils", "prettyprint"] }
+arrow-flight = "48.0.0"
 datafusion = "33.0.0"
 futures = "0.3.29"
 parquet = { version = "49.0.0", features = ["arrow", "async"] }
